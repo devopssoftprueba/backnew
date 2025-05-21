@@ -31,7 +31,7 @@ final class JackpotProcessor implements ProcessorInterface
     /**
      * Procesa un nuevo jackpot
      *
-     *
+     * @throws ProcessingException Si hay un error en el procesamiento
      */
     public function processJackpot(Amount $amount, GameData $gameData): array
     {
